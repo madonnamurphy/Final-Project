@@ -1,0 +1,240 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://res.cloudinary.com/dfg0l4zth/image/upload/v1606546393/Last_Chance009_zr4es8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.intro {
+    position: absolute;
+    width: 300px;
+    top: 230px;
+    left: 200px;
+}
+.intro p {
+    font-size: 17px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #03fc73;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: italic;
+    font-weight: bold;
+    color :black;
+}
+
+.contact {
+    position: fixed;
+    left:1115px;
+    top: 10px;
+    border: 25px solid red;
+}
+.contact img {
+    width: 220px;
+    height: auto;
+}
+.contact a {
+    font-size: 35px;
+    -webkit-text-stroke: 1px #03fc73;
+    font-family: Brush Script MT;
+    color :black;
+}
+
+.shop {
+    padding: 10px;
+    position: fixed;
+    left: 1115px;
+    top: 450px;
+    border: 20px solid red;
+}
+.shop h1 {
+    font-size: 35px;
+    -webkit-text-stroke: 1px #03fc73;
+    font-family: Brush Script MT;
+    color :black;
+}
+.shop a {
+    font-size: 35px;
+    -webkit-text-stroke: 1px #03fc73;
+    font-family: Brush Script MT;
+    color :black;
+}
+
+/** ART 1 AND WARIO */
+
+.art1 img {
+    position: relative;
+    left: 100px;
+    top: 350px;
+    width: 500px;
+    height: auto;
+}
+
+.wario img {
+    position: relative;
+    width: 150px;
+    top: 360px;
+    left: 450px;
+}
+.art1txt {
+    position: absolute;
+    width: 205px;
+    top: 300px;
+    left: 900px;
+}
+.art1txt p{
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: italic;
+    font-weight: bold;
+    color :black;
+}
+.art11txt {
+    position: relative;
+    width: 205px;
+    top:-300px;
+    left:650px;
+}
+.art11txt p{
+    font-size: 17px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
+
+
+/*AUDIO*/
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    border-radius: 5px;
+    background-color: red;
+}
+
+#fixed {
+    background-color: red;
+    width: 270px;
+    position: fixed;
+    top: 390px;
+    left: 1115px;
+}
+/**TITLE */
+.sumirechan {
+    position: fixed;
+    width: 500px;
+    height: auto;
+    left: 95px;
+    top: 30px;
+}
+
+.insta {
+    position: fixed;
+    left: 1250px;
+    top: 460px;
+    width: 160px;
+    height: auto;
+}
+
+/** KANSAI DIVIDER */
+.castle {
+    position: absolute;
+    left: 540px;
+    top: 850px;
+    transform: rotate(10deg);
+}
+.ikura1 {
+    position: absolute;
+    left: 200px;
+    top: 1000px;
+}
+.ikura2 {
+    position: absolute;
+    left: 750px;
+    top: 1050px;
+}
+.ikura3 {
+    position: absolute;
+    left: 600px;
+    top: 1170px;
+}
+
+.oko {
+    position: absolute;
+    transform: rotate(-20deg);
+    width: 800px;
+    top: 1050px;
+    left: -200px;
+}
+.kani {
+    position: absolute;
+    transform: rotate(-15deg);
+    top: 900px;
+    left: 80px;
+}
+.tako1 {
+    position: relative;
+    left: 800px;
+    top: 200px;
+    width: 150px;
+}
+.tako2 {
+    position: relative;
+    left: 850px;
+    top: 500px;
+    width: 150px;
+}
+/** ART 2 */
+.art2 img {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 650px;
+    top: 1450px;
+}
+
+
+
+.rotate1 {
+    position: fixed;
+    width: 80px;
+    height: auto;
+    left: 1080px;
+    top: 250px;
+    animation: rotation 3s infinite linear;
+  }
+.rotate2 {
+    position: fixed;
+    width: 65px;
+    height: auto;
+    left: 1120px;
+    top: 150px;
+    animation: rotation 2s infinite linear;
+}
+.rotate3 {
+    position: fixed;
+    width: 150px;
+    height: auto;
+    left: 110px;
+    top: 450px;
+    animation: rotation 2.5s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
