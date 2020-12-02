@@ -16,11 +16,11 @@ body {
 .intro {
     position: absolute;
     width: 300px;
-    top: 230px;
-    left: 200px;
+    top: 13vw;
+    left: 13vw;
 }
 .intro p {
-    font-size: 17px;
+    font-size: 19px;
     letter-spacing: -1px;
     -webkit-text-stroke: 1px #03fc73;
     font-family: Arial, Helvetica, sans-serif
@@ -32,8 +32,8 @@ body {
 
 .contact {
     position: fixed;
-    left:1115px;
-    top: 10px;
+    left:81vw;
+    top: 1vw;
     border: 25px solid red;
 }
 .contact img {
@@ -50,8 +50,8 @@ body {
 .shop {
     padding: 10px;
     position: fixed;
-    left: 1115px;
-    top: 450px;
+    left: 81vw;
+    top: 31vw;
     border: 20px solid red;
 }
 .shop h1 {
@@ -85,12 +85,12 @@ body {
 }
 .art1txt {
     position: absolute;
-    width: 205px;
-    top: 300px;
-    left: 900px;
+    width: 220px;
+    top: 20vw;
+    left: 65vw;
 }
 .art1txt p{
-    font-size: 19px;
+    font-size: 20px;
     letter-spacing: -1px;
     -webkit-text-stroke: 1px #17ff55;
     font-family: Arial, Helvetica, sans-serif
@@ -101,12 +101,28 @@ body {
 }
 .art11txt {
     position: relative;
-    width: 205px;
+    width: 300px;
     top:-300px;
     left:650px;
 }
 .art11txt p{
-    font-size: 17px;
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
+.art111txt {
+    position: relative;
+    width: 400px;
+    top:-325px;
+    left:800px;
+}
+.art111txt p {
+    font-size: 19px;
     letter-spacing: -1px;
     -webkit-text-stroke: 1px #17ff55;
     font-family: Arial, Helvetica, sans-serif
@@ -127,8 +143,8 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     background-color: red;
     width: 270px;
     position: fixed;
-    top: 390px;
-    left: 1115px;
+    top: 26vw;
+    left: 81vw;
 }
 /**TITLE */
 .sumirechan {
@@ -141,8 +157,8 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 
 .insta {
     position: fixed;
-    left: 1250px;
-    top: 460px;
+    left: 90vw;
+    top:31vw;
     width: 160px;
     height: auto;
 }
@@ -150,23 +166,24 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 /** KANSAI DIVIDER */
 .castle {
     position: absolute;
-    left: 540px;
+    width: 500px;
+    left: 45vw;
     top: 850px;
     transform: rotate(10deg);
 }
 .ikura1 {
     position: absolute;
-    left: 200px;
+    left: 10vw;
     top: 1000px;
 }
 .ikura2 {
     position: absolute;
-    left: 750px;
+    left: 57vw;
     top: 1050px;
 }
 .ikura3 {
     position: absolute;
-    left: 600px;
+    left: 45vw;
     top: 1170px;
 }
 
@@ -191,43 +208,132 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 }
 .tako2 {
     position: relative;
-    left: 850px;
-    top: 500px;
+    left: 900px;
+    top: 400px;
     width: 150px;
 }
 /** ART 2 */
 .art2 img {
     position: absolute;
-    width: 400px;
+    width: 500px;
     height: auto;
-    left: 650px;
+    left: 700px;
     top: 1450px;
 }
 
+.art2txt {
+    position: absolute;
+    border: 20px solid red;
+    top: 1600px;
+    width: 500px;
+    height: 570px;
+    left: 100px;
+}
+.flowertxt {
+    position: absolute;
+    width: 400px;
+    top: 1900px;
+    left: 366px;
+    transform: translate(-50%, -50%);
+}
+.flowertxt p {
+    font-size: 18px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px red;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :white;
+}
+.cicada1 {
+    position: absolute;
+    top: 1555px;
+    left: 570px;
+    width: 100px;
+    transform: rotate(-20deg);
+}
+.cicada2 {
+    position: absolute;
+    top: 1650px;
+    left: 550px;
+    width: 100px;
+    transform: rotate(-5deg);
+}
+.cicada3 {
+    position: absolute;
+    top: 2000px;
+    left: 5px;
+    width: 100px;
+    transform: rotate(5deg);
+}
+.flow1 {
+    position: absolute;
+    width: 100px;
+    top: 2150px;
+    left: 500px;
+}
+.flow2 {
+    position: absolute;
+    width: 100px;
+    top: 2170px;
+    left: 660px;
+}
+.flow3 {
+    position: absolute;
+    width: 100px;
+    top: 2240px;
+    left: 660px;
+}
+.flow4 {
+    position: absolute;
+    width: 100px;
+    top: 2240px;
+    left: 760px;
+}
+.flow5 {
+    position: absolute;
+    width: 100px;
+    top: 2000px;
+    left: 760px;
+}
+.flow6 {
+    position: absolute;
+    width: 100px;
+    top: 2150px;
+    left: 900px;
+}
 
+/** KEYBOARD AND TECH */
+.keyboard {
+    position: absolute;
+    top: 2400px;
+    left: 0px;
+    width: 90%;
+}
 
 .rotate1 {
     position: fixed;
     width: 80px;
     height: auto;
-    left: 1080px;
-    top: 250px;
+    left: 78vw;
+    top: 20vw;
     animation: rotation 3s infinite linear;
   }
 .rotate2 {
     position: fixed;
     width: 65px;
     height: auto;
-    left: 1120px;
-    top: 150px;
+    left: 82vw;
+    top: 10vw;
     animation: rotation 2s infinite linear;
 }
 .rotate3 {
     position: fixed;
     width: 150px;
     height: auto;
-    left: 110px;
-    top: 450px;
+    left: 10vw;
+    top: 35vw;
     animation: rotation 2.5s infinite linear;
 }
 @keyframes rotation {
