@@ -400,6 +400,21 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     left: 100px;
     width: 600px;
 }
+.art3txt {
+    position: absolute;
+    top: 3720px;
+    left: 680px;
+}
+.art3txt p {
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
 .web1 {
     position: absolute;
     top: 3100px;
@@ -412,7 +427,146 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     left: 690px;
     width: 500px;
 }
+.buttfly1 {
+    position: absolute;
+    top: 3600px;
+    left:590px;
+    width: 200px;
+}
+.buttfly2 {
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(10deg);
+    top: 3400px;
+    left:50px;
+    width: 200px;
+}
+.buttfly3 {
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(30deg);
+    top: 3500px;
+    left:0px;
+    width: 200px;
+}
+.buttfly4 {
+    position: absolute;
+    transform:rotate(30deg);
+    top: 2740px;
+    left:855px;
+    width: 150px;
+}
 
+.galleryguy1 {
+    position: absolute;
+    top: 3900px;
+    left: 600px;
+    width: 200px;
+}
+
+.firstgallery {
+    position: absolute;
+    top:4000px;
+    left: 800px;
+    width: 297px;
+    height: 370px;
+    border: 15px solid red;
+}
+.firstgallery img {
+    position: relative;
+    left: -1px;
+    top: -1px;
+    width: 300px;
+}
+
+.phone {
+    position: absolute;
+    width: 700px;
+    top: 4115px;
+    left: 100px;
+}
+
+/** ART 4 */
+.art4 {
+    position: absolute;
+    top: 4500px;
+    left: 600px;
+    width: 700px;
+}
+.ledge {
+    position: absolute;
+    transform: rotate(3deg);
+    top:4242px;
+    left:630px;
+    width: 500px;
+}
+.catledge {
+    position: absolute;
+    top: 4445px;
+    left:650px;
+    width: 105px;
+}
+.gallerygals {
+    position: absolute;
+    top: 4900px;
+    left:440px;
+    width: 300px;
+}
+
+/** ART 5 */
+.art5 {
+    position: absolute;
+    top: 4800px;
+    left: 80px;
+    width: 450px;
+}
+.straw1 {
+    position: absolute;
+    top: 4200px;
+    left:657px;
+    width: 100px;
+}
+.straw2 {
+    position: absolute;
+    top: 4400px;
+    left:1100px;
+    width: 140px;
+}
+.straw3 {
+    position: absolute;
+    top: 4550px;
+    left:350px;
+    width: 150px;
+}
+.straw4 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 4650px;
+    left:250px;
+    width: 130px;
+}
+.straw5 {
+    position: absolute;
+    transform: rotate(25deg);
+    top: 5000px;
+    left:1150px;
+    width: 300px;
+}
+.art45txt {
+    position: absolute;
+    left: 700px;
+    top: 5200px;
+}
+.art45txt p {
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
 
 
 
