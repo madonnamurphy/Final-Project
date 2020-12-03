@@ -309,8 +309,113 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     position: absolute;
     top: 2400px;
     left: 0px;
-    width: 90%;
+    width: 1370px;
 }
+.redkey {
+    position: absolute;
+    top:2559px;
+    left:292px;
+    width: 75px;
+}
+.bluekey {
+    position: absolute;
+    top:2720px;
+    left:475px;
+    width: 78px;
+}
+.yellowkey {
+    position: absolute;
+    top:2795px;
+    left:795px;
+    width: 52px;
+}
+.ultra {
+    position: absolute;
+    width: 200px;
+    left: 880px;
+    animation: moveupdown 17s infinite;
+}
+@keyframes moveupdown {
+    0%   {top: 2500px;}
+    25%  {top: 2300px;}
+    50%  {top: 2500px}
+    75%  {top: 2300px;}
+    100%  {top: 2500px;}
+     
+  }
+.initiald {
+    position: absolute;
+    width: 200px;
+    transform: rotate(3deg);
+    animation: moveleftrightD 2.5s infinite;
+  }
+  @keyframes moveleftrightD {
+    0% {left: -200px;
+        top: 2340px}
+    100% {left: 1300px;
+        top: 2424px;}
+}
+.sonic {
+    position: absolute;
+    width: 100px;
+    transform: rotate(3deg);
+    animation: moveleftrightS 1.75s infinite;
+}
+
+@keyframes moveleftrightS {
+    0% {left: -200px;
+        top: 2340px}
+    100% {left: 1400px;
+        top: 2424px;}
+}
+.flow11 {
+    position: absolute;
+    width: 100px;
+    top: 2450px;
+    left: 50px;
+}
+.flow22 {
+    position: absolute;
+    width: 100px;
+    top: 2510px;
+    left: 50px;
+}
+.flow33 {
+    position: absolute;
+    width: 100px;
+    top: 2550px;
+    left: 800px;
+}
+.flow44 {
+    position: absolute;
+    width: 100px;
+    top: 2800px;
+    left: 900px;
+}
+
+/** ART 3 */
+.art3 img {
+    position: absolute;
+    top: 3000px;
+    left: 100px;
+    width: 600px;
+}
+.web1 {
+    position: absolute;
+    top: 3100px;
+    left: 580px;
+    width: 500px;
+}
+.web2 {
+    position: absolute;
+    top: 3410px;
+    left: 690px;
+    width: 500px;
+}
+
+
+
+
 
 .rotate1 {
     position: fixed;
