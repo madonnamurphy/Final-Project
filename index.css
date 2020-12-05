@@ -16,8 +16,8 @@ body {
 .intro {
     position: absolute;
     width: 300px;
-    top: 13vw;
-    left: 13vw;
+    top: 170px;
+    left: 150px;
 }
 .intro p {
     font-size: 19px;
@@ -244,7 +244,7 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     ;
     font-style: oblique;
     font-weight: bold;
-    color :white;
+    color :black;
 }
 .cicada1 {
     position: absolute;
