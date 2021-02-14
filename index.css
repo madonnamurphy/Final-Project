@@ -32,8 +32,8 @@ body {
 
 .contact {
     position: fixed;
-    left:81vw;
-    top: 1vw;
+    left:1245px;;
+    top: 10px;
     border: 25px solid red;
 }
 .contact img {
@@ -50,8 +50,8 @@ body {
 .shop {
     padding: 10px;
     position: fixed;
-    left: 81vw;
-    top: 31vw;
+    left: 1245px;
+    top: 460px;
     border: 20px solid red;
 }
 .shop h1 {
@@ -157,8 +157,8 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 
 .insta {
     position: fixed;
-    left: 90vw;
-    top:31vw;
+    left: 1380px;
+    top:470px;
     width: 160px;
     height: auto;
 }
